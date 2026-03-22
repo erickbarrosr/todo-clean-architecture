@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: todocleanarchitecture
+
+  profiles:
+    active: ${APP_PROFILES:local}
+
+  jpa:
+    open-in-view: false
