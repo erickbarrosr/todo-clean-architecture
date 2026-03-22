@@ -1,4 +1,4 @@
-package com.ersoftwares.todocleanarchitecture.application.usecase;
+package com.ersoftwares.todocleanarchitecture.application;
 
 import com.ersoftwares.todocleanarchitecture.domain.model.Task;
 import com.ersoftwares.todocleanarchitecture.domain.port.TaskRepository;

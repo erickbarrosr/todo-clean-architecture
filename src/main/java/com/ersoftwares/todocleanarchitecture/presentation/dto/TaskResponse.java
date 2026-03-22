@@ -1,4 +1,4 @@
-package com.ersoftwares.todocleanarchitecture.adapter.dto;
+package com.ersoftwares.todocleanarchitecture.presentation.dto;
 
 import com.ersoftwares.todocleanarchitecture.domain.model.Task;
 import lombok.Data;

@@ -1,10 +1,10 @@
-package com.ersoftwares.todocleanarchitecture.adapter.controller;
+package com.ersoftwares.todocleanarchitecture.presentation.controller;
 
-import com.ersoftwares.todocleanarchitecture.adapter.dto.CreateTaskRequest;
-import com.ersoftwares.todocleanarchitecture.adapter.dto.TaskResponse;
-import com.ersoftwares.todocleanarchitecture.application.usecase.AddTaskUseCase;
-import com.ersoftwares.todocleanarchitecture.application.usecase.CompleteTaskUseCase;
-import com.ersoftwares.todocleanarchitecture.application.usecase.ListTasksUseCase;
+import com.ersoftwares.todocleanarchitecture.presentation.dto.CreateTaskRequest;
+import com.ersoftwares.todocleanarchitecture.presentation.dto.TaskResponse;
+import com.ersoftwares.todocleanarchitecture.application.AddTaskUseCase;
+import com.ersoftwares.todocleanarchitecture.application.CompleteTaskUseCase;
+import com.ersoftwares.todocleanarchitecture.application.ListTasksUseCase;
 import com.ersoftwares.todocleanarchitecture.domain.model.Task;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

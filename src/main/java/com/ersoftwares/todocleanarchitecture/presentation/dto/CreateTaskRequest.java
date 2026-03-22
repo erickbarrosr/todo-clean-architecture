@@ -1,4 +1,4 @@
-package com.ersoftwares.todocleanarchitecture.adapter.dto;
+package com.ersoftwares.todocleanarchitecture.presentation.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
