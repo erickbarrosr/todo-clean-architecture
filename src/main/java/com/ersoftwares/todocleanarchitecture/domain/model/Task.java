@@ -65,6 +65,11 @@ public class Task {
         return id;
     }
 
+    // Setter de ID: só a infraestrutura deve chamar após persistir.
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -75,10 +80,5 @@ public class Task {
 
     public LocalDateTime getCreatedAt() {
         return createdAt;
-    }
-
-    // Setter de ID: só a infraestrutura deve chamar após persistir.
-    public void setId(Long id) {
-        this.id = id;
     }
 }
